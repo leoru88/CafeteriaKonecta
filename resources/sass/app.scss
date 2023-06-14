@@ -1,0 +1,124 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+.form{
+    margin: 0 auto;
+    width: 650px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+}
+
+.custom-submit {
+    background-color: #57340c;
+    color: #ffffff;
+    border: none; 
+    padding: 10px 20px; 
+    width: 200px; 
+    height: 50px; 
+    font-size: 16px; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 500px;
+    padding: 1px;
+}
+
+.custom-bottom {
+    background-color: #57340c;
+    color: #ffffff;
+    border: none; 
+    padding: 10px 20px; 
+    width: 200px; 
+    height: 50px; 
+    font-size: 16px; 
+}
+
+.container {
+    display: flex;
+}
+  
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1610632380989-680fe40816c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    background-repeat: repeat;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
+h1 {
+   width: 15%;
+   color:#ffffff;
+   opacity: 1;
+}
+
+.bg-main {
+    background-color: #3b2700 !important;
+    height: 60;
+    opacity: 0.8;
+}
+
+.content {
+    background-color: #c5a363;
+}
+
+.selected-category {
+    border-bottom: 2px solid black;
+}
+
+.card-txt-category {
+    color: #9b9a9a;
+    font-size: 12px;
+}
+
+.card-txt-author {
+    color: #9D9D9D;
+    font-size: 14px;
+}
+
+.card-txt-date {
+    color: #9D9D9D;
+    font-size: 14px;
+}
+
+.card {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 1.25rem;
+
+}
+
+.card-img-top {
+    border-top-left-radius: calc(1.25rem - 1px);
+    border-top-right-radius: calc(1.25rem - 1px);
+}
+
+.post-txt {
+    color: #9D9D9D;
+    
+}
